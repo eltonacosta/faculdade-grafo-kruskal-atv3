@@ -1,5 +1,5 @@
 def kruskal(grafo_vertices, grafo_arestas):
-    parent = {vertice: vertice for vertice in grafo_vertices} # Cada cidade é sua própria capital
+    parent = {vertice: vertice for vertice in grafo_vertices}
     agm_arestas = []
     custo_total = 0
 
